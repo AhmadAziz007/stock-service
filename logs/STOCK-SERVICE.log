@@ -1,0 +1,27 @@
+STOCK-SERVICE 10-09-2024 17:02:47.873 INFO  [com.learn.StockServiceApplication] Starting StockServiceApplication using Java 17.0.12 with PID 21360 (C:\Users\Ahmad Aziz Bin Agus\OneDrive\Documents\code\backend\stock-service\target\classes started by Ahmad Aziz Bin Agus in C:\Users\Ahmad Aziz Bin Agus\OneDrive\Documents\code\backend\stock-service)
+STOCK-SERVICE 10-09-2024 17:02:47.876 INFO  [com.learn.StockServiceApplication] No active profile set, falling back to 1 default profile: "default"
+STOCK-SERVICE 10-09-2024 17:02:49.024 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+STOCK-SERVICE 10-09-2024 17:02:49.076 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+STOCK-SERVICE 10-09-2024 17:02:49.628 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat initialized with port 8082 (http)
+STOCK-SERVICE 10-09-2024 17:02:49.635 INFO  [org.apache.catalina.core.StandardService] Starting service [Tomcat]
+STOCK-SERVICE 10-09-2024 17:02:49.636 INFO  [org.apache.catalina.core.StandardEngine] Starting Servlet engine: [Apache Tomcat/10.1.26]
+STOCK-SERVICE 10-09-2024 17:02:49.699 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring embedded WebApplicationContext
+STOCK-SERVICE 10-09-2024 17:02:49.700 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] Root WebApplicationContext: initialization completed in 1781 ms
+STOCK-SERVICE 10-09-2024 17:02:50.016 INFO  [org.hibernate.jpa.internal.util.LogHelper] HHH000204: Processing PersistenceUnitInfo [name: default]
+STOCK-SERVICE 10-09-2024 17:02:50.072 INFO  [org.hibernate.Version] HHH000412: Hibernate ORM core version 6.5.2.Final
+STOCK-SERVICE 10-09-2024 17:02:50.114 INFO  [org.hibernate.cache.internal.RegionFactoryInitiator] HHH000026: Second-level cache disabled
+STOCK-SERVICE 10-09-2024 17:02:50.336 INFO  [org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo] No LoadTimeWeaver setup: ignoring JPA class transformer
+STOCK-SERVICE 10-09-2024 17:02:50.355 INFO  [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+STOCK-SERVICE 10-09-2024 17:02:50.496 INFO  [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2b400bd0
+STOCK-SERVICE 10-09-2024 17:02:50.499 INFO  [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+STOCK-SERVICE 10-09-2024 17:02:50.533 WARN  [org.hibernate.orm.deprecation] HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+STOCK-SERVICE 10-09-2024 17:02:51.201 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+STOCK-SERVICE 10-09-2024 17:02:51.252 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] Initialized JPA EntityManagerFactory for persistence unit 'default'
+STOCK-SERVICE 10-09-2024 17:02:51.487 INFO  [org.springframework.data.jpa.repository.query.QueryEnhancerFactory] Hibernate is in classpath; If applicable, HQL parser will be used.
+STOCK-SERVICE 10-09-2024 17:02:51.559 WARN  [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+STOCK-SERVICE 10-09-2024 17:02:52.188 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] Exposing 1 endpoint beneath base path '/actuator'
+STOCK-SERVICE 10-09-2024 17:02:52.285 INFO  [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] Tomcat started on port 8082 (http) with context path '/'
+STOCK-SERVICE 10-09-2024 17:02:52.303 INFO  [com.learn.StockServiceApplication] Started StockServiceApplication in 4.892 seconds (process running for 5.588)
+STOCK-SERVICE 10-09-2024 17:07:02.411 INFO  [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] Initializing Spring DispatcherServlet 'dispatcherServlet'
+STOCK-SERVICE 10-09-2024 17:07:02.411 INFO  [org.springframework.web.servlet.DispatcherServlet] Initializing Servlet 'dispatcherServlet'
+STOCK-SERVICE 10-09-2024 17:07:02.413 INFO  [org.springframework.web.servlet.DispatcherServlet] Completed initialization in 1 ms
